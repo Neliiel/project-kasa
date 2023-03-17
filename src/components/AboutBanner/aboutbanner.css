@@ -1,0 +1,8 @@
+.container-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url(../../assets/AboutBanner.png);
+    border-radius: 25px;
+    height: 223px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

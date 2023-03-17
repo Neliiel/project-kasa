@@ -1,12 +1,13 @@
 import './card.css';
 
-function Card() {
+function Card({title, cover}) {
     return (
         <div className="card-container">
-            <img src="" className="card-img"/>
-            <h3 className="card-title">Titre de la location</h3>
+            <img src={cover} className="card-img"/>
+            <h3 className="card-title">{title}</h3>
         </div>
     )
 }
 
 export default Card
+

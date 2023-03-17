@@ -1,5 +1,3 @@
-import './banner.css'
-
 function HomeBanner () {
     return (
         <div className="container-banner">

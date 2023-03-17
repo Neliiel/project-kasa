@@ -3,7 +3,10 @@ import Card from "../components/Card/card"
 
 function Home () {
     return (
-        <HomeBanner />
+        <div className="home">
+            <HomeBanner />
+            <Card />
+        </div>
     )
 }
 

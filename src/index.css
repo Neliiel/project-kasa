@@ -2,6 +2,7 @@
 @import "../src/components/Navbar/navbar.css";
 @import "../src/components/Banner/banner.css";
 @import "../src/components/Card/card.css";
+@import "../src/components/AboutBanner/aboutbanner.css";
 
 body {
   margin: 0;
