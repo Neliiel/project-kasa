@@ -1,3 +1,7 @@
+@import "../src/components/Header/header.css";
+@import "../src/components/Navbar/navbar.css";
+@import "../src/components/Banner/banner.css";
+@import "../src/components/Card/card.css";
 
 body {
   margin: 0;
@@ -6,6 +10,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 50px;
+
+  background: #FFFFFF;
 }
 
 code {

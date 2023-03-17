@@ -1,0 +1,17 @@
+.tag-container {
+    width: 115px;
+    height: 25px;
+    background: #FF6060;
+    border-radius: 10px;
+}
+
+.tag-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+
+
+    color: #FFFFFF;
+}

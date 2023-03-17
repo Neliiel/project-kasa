@@ -5,8 +5,6 @@ import './index.css';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 
-import '../src/style/style.css'
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
