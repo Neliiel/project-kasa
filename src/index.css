@@ -4,6 +4,7 @@
 @import "../src/components/Card/card.css";
 @import "../src/components/AboutBanner/aboutbanner.css";
 @import "../src/components/Collapse/collapse.css";
+@import "../src/components/Error/error.css";
 
 body {
   margin: 0;
