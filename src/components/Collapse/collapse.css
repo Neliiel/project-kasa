@@ -1,0 +1,40 @@
+.container-collapse-title {
+    display: flex;
+    justify-content: space-between;
+    Width: 1023px;
+    Height: 47px;
+    border-radius: 5px;
+    background-color: #FF6060;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.collapse-title {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    color: white;  
+}
+
+.collapse-img {
+    Width: 20px;
+    Height: 12px;
+}
+
+.container-collapse-text {
+    width: 1023px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    padding: 1px 5px 1px 5px;
+}
+
+.collapse-text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+    color: #FF6060;
+}

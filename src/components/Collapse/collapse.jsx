@@ -10,7 +10,7 @@ function Collapse({aboutTitle, aboutText}) {
             <div className="collapse-item">
                 <div className="container-collapse-title" onClick={() => setIsOpen(!isOpen)}>
                     <p className="collapse-title">{aboutTitle}</p>
-                    <img src={isOpen? arrowUp : arrowDown} alt="arrow"/>
+                    <img src={isOpen? arrowUp : arrowDown} className="collapse-img" alt="arrow"/>
                 </div>
                 {isOpen && <div className="container-collapse-text">
                    <p className="collapse-text">{aboutText}</p>

@@ -3,6 +3,7 @@
 @import "../src/components/Banner/banner.css";
 @import "../src/components/Card/card.css";
 @import "../src/components/AboutBanner/aboutbanner.css";
+@import "../src/components/Collapse/collapse.css";
 
 body {
   margin: 0;
