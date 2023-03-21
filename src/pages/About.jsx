@@ -1,6 +1,6 @@
 import AboutBanner from "../components/AboutBanner/aboutbanner";
 import Collapse from "../components/Collapse/collapse";
-import aboutData from "../data/data.json";
+import aboutData from "../datas/data.json";
 
 
 function About () {
