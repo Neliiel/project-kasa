@@ -5,13 +5,12 @@ import { useParams } from "react-router-dom"
 
 function Fiche () {
     const id= useParams();
-    const ficheLogement = logementData.find(logement => logement.id === id.id);
+    const ficheLogement = logementData.filter(data => data.id === id.id)
+    
     return (
-        <div>
-            <div className="carrousel">
-                <Carrousel picture={ficheLogement.pictures}/>
-            </div>
-            <Tag />
+        <div className="ficheLogement">
+            <Carrousel pictures={ficheLogement.pictures}/>
+            <Tag tags={ficheLogement.tags}/>
         </div>
     )
 }

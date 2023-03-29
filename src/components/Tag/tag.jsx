@@ -1,9 +1,9 @@
 import './tag.css'
 
-function Tag () {
+function Tag ({tags}) {
     return (
         <div className="tag-container">
-            <p className="tag-name">tag-name</p>
+            <p className="tag-name">{tags}</p>
         </div>
     )
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import "../src/components/Header/header.css";
 @import "../src/components/Navbar/navbar.css";
 @import "../src/components/Banner/banner.css";
@@ -5,12 +7,12 @@
 @import "../src/components/AboutBanner/aboutbanner.css";
 @import "../src/components/Collapse/collapse.css";
 @import "../src/components/Error/error.css";
+@import "../src/components/Footer/footer.css";
+
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 50px;
@@ -21,4 +23,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.link-card {
+  text-decoration: none;
+}
+
+.collapse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }

@@ -27,11 +27,8 @@
     font-weight: 500;
     font-size: 18px;
     margin-left: 10px;
-    
-    display: flex;
     align-items: flex-end;
-    position: absolute;
-    margin-top: -40px;
+    margin-top: -50px;
 
     color: #FFFFFF;
 }

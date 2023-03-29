@@ -1,10 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
+
 
 
 
 import Header from './components/Header/header';
+import Footer from './components/Footer/footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Error from './pages/Error';
@@ -20,6 +21,7 @@ function App() {
         <Route path="*" element={<Error />} />
         <Route path="/logement/:id" element={<Fiche />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

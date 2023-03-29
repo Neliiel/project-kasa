@@ -2,7 +2,7 @@ import {useState} from "react";
 import arrowRight from "../../assets/ArrowRight.png"
 import arrowLeft from "../../assets/ArrowLeft.png"
 
-function Carrousel (picture) {
+function Carrousel ({pictures}) {
     const [index, setIndex] = useState(0);
     const length = 3;
 
@@ -19,7 +19,7 @@ function Carrousel (picture) {
     return (
         <div className="carrousel">
             <img onClick = {handlePrevious} src= {arrowLeft} alt="précédente" className="fleche"/>
-            <img src= {picture} className="imageLogement" alt="Logement" key={index}/>
+            <img src= {pictures} className="imageLogement" alt="Logement" key={index}/>
             <img onClick = {handleNext} src= {arrowRight} alt="suivante" className="fleche"/>
         </div>
     )
